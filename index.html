@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - SAHIL FARZAN</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Navbar -->
+    <nav class="bg-blue-600 text-white p-4 sticky top-0">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">WELCOME</h1>
+            <ul class="flex space-x-6">
+                <li><a href="#home" class="hover:text-gray-200">Home</a></li>
+                <li><a href="#projects" class="hover:text-gray-200">Projects</a></li>
+                <li><a href="#skills" class="hover:text-gray-200">Skills</a></li>
+                <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold mb-4">Hi, I'm SAHIL FARZAN</h1>
+            <p class="text-xl mb-6">A passionate Frontend Developer building modern and responsive web applications.</p>
+            <a href="#projects" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">View My Work</a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">My Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project Card -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 1" class="w-full h-48 object-cover rounded-md mb-4">
+                    <h3 class="text-xl font-semibold">Project 1</h3>
+                    <p class="text-gray-600 mb-4">A responsive e-commerce website built with React and Tailwind CSS.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-blue-600 hover:underline">Live Demo</a>
+                        <a href="#" class="text-blue-600 hover:underline">GitHub</a>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-12">My Skills</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+                <div class="p-4 bg-white rounded-lg shadow-md">HTML</div>
+                <div class="p-4 bg-white rounded-lg shadow-md">CSS</div>
+                <div class="p-4 bg-white rounded-lg shadow-md">JavaScript</div>
+                <div class="p-4 bg-white rounded-lg shadow-md">React</div>
+                <!-- Add more skills as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-12">Get in Touch</h2>
+            <form class="max-w-lg mx-auto">
+                <input type="text" placeholder="Your Name" class="w-full p-3 mb-4 border rounded-md">
+                <input type="email" placeholder="Your Email" class="w-full p-3 mb-4 border rounded-md">
+                <textarea placeholder="Your Message" class="w-full p-3 mb-4 border rounded-md h-32"></textarea>
+                <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700">Send Message</button>
+            </form>
+            <div class="mt-8">
+                <p>Email: <a href="mailto:your.email@example.com" class="text-blue-600">sahilfarzan123@gmail.com</a></p>
+                <p>LinkedIn: <a href="#" class="text-blue-600">https://www.linkedin.com/in/sahil-farzan-45402126b/</a></p>
+                <p>GitHub: <a href="#" class="text-blue-600">Your GitHub</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white p-4 text-center">
+        <p>&copy; have a good day</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
